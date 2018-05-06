@@ -1,10 +1,10 @@
 from django import template
+from profanity.extras import ProfanityFilter
 
 register = template.Library()
+pf = ProfanityFilter()
+
 
 @register.filter()
-def noprofanity(value):
-    return None
-    # TODO
-    # Read through value word by word,
-    # replace any profanity with
+def censor(value):
+    return pf.censor(value)

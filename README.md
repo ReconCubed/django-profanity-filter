@@ -11,11 +11,9 @@ Django Profanity Filter is a simple Django app that introduces a range of templa
 `import profanity.validators` to import profanity validators.
 
 ## TODO
-#### Misc
-- [ ] Command line to load in your own list of words as a variable, and define validators and template filters with them
 #### Template Tags
 
-- [ ] Basic filter
+- [x] Basic filter
 - [ ] Advanced filter
     - Keyword argument for custom word filter
     
