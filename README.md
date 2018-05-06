@@ -39,6 +39,7 @@ The output will be `You are a *****!`, instead of `You are a bitch!`.
 
 #### Validators
 ##### Is Profane Validator
+###### Example
 ```python
 from profanity.validators import validate_is_profane
 
