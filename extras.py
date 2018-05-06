@@ -1,4 +1,5 @@
 import re
+import os
 
 import inflection
 
@@ -19,7 +20,8 @@ class ProfanityFilter:
         self._censor_char = "*"
 
         # Where to find the censored words
-        self._words_file = 'wordlist.txt'
+        self._BASE_DIR = os.path.abspath(os.path.dirname(__file__))
+        self._words_file = os.path.join(self._BASE_DIR, 'wordlist.txt')
 
         self._load_words()
 
