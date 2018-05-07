@@ -1,6 +1,6 @@
 # Django Profanity Filter
 
-[![PyPI license](https://img.shields.io/pypi/l/Django.svg)](https://pypi.python.org/pypi/Django/) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![PyPI license](https://img.shields.io/pypi/l/django-profanity-filter.svg)](https://pypi.python.org/pypi/django-profanity-filter/) ![PyPI](https://img.shields.io/pypi/v/django-profanity-filter.svg) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-profanity-filter.svg) ![PyPI - Django Version](https://img.shields.io/pypi/djversions/django-profanity-filter.svg) [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
 Django Profanity Filter is a simple Django app that introduces a range of template tags and filters and model validators that remove or censor inappropriate language. 
 
