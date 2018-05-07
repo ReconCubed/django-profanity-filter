@@ -7,7 +7,7 @@ Django Profanity Filter is a simple Django app that introduces a range of templa
 ## Installation
 1. Install via pip
 ```
-$ pip install NAME OF PACKAGE
+$ pip install django-profanity-filter
 ```
 2. Add `'profanity',` to your `INSTALLED_APPS` in `settings.py`
 ```python
