@@ -27,7 +27,7 @@ At the top of every template you wish to use profanity filters and tags on, make
 {% load profanity %}
 ...
 ```
-##### Censor Tag
+##### Censor Filter
 ###### Example
 ```jinja2
 {% with string='You are a bitch!' %}
@@ -36,6 +36,14 @@ At the top of every template you wish to use profanity filters and tags on, make
 ```
 The output will be `You are a *****!`, instead of `You are a bitch!`.
 
+#### Is Profane Tag
+##### Example
+```jinja2
+{% with string='You are a bitch!' %}
+{{ string|is_profane }}
+{% endwith %}
+```
+The output will be `True`, since the string contains profanity.
 
 #### Validators
 ##### Is Profane Validator
